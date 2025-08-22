@@ -1,0 +1,340 @@
+version: 2
+sources:
+  - name: canalbox
+    database: canalbox
+    schema: public
+    description: "Base de données principale de Canalbox contenant toutes les données opérationnelles"
+    
+    tables:
+      - name: agents
+        description: "Table des commerciaux/démarcheurs"
+        columns:
+          - name: id
+            description: "Identifiant unique de l'agent"
+            tests:
+              - not_null
+              - unique
+          - name: nom
+            description: "Nom de l'agent"
+            tests:
+              - not_null
+          - name: email
+            description: "Email de l'agent"
+            tests:
+              - not_null
+              - unique
+          - name: telephone
+            description: "Numéro de téléphone de l'agent"
+          - name: created_at
+            description: "Date de création de l'agent"
+            tests:
+              - not_null
+
+      - name: techniciens
+        description: "Table des techniciens d'installation"
+        columns:
+          - name: id
+            description: "Identifiant unique du technicien"
+            tests:
+              - not_null
+              - unique
+          - name: nom
+            description: "Nom du technicien"
+            tests:
+              - not_null
+          - name: email
+            description: "Email du technicien"
+            tests:
+              - not_null
+              - unique
+          - name: telephone
+            description: "Numéro de téléphone du technicien"
+          - name: created_at
+            description: "Date de création du technicien"
+            tests:
+              - not_null
+
+      - name: clients
+        description: "Table des clients de Canalbox"
+        columns:
+          - name: id
+            description: "Identifiant unique du client"
+            tests:
+              - not_null
+              - unique
+          - name: agent_id
+            description: "Identifiant de l'agent qui a démarché le client"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('canalbox', 'agents')
+                  field: id
+          - name: box_id
+            description: "Identifiant de la box attribuée au client"
+          - name: nom
+            description: "Nom de famille du client"
+            tests:
+              - not_null
+          - name: prenom
+            description: "Prénom du client"
+            tests:
+              - not_null
+          - name: email
+            description: "Email du client"
+            tests:
+              - not_null
+              - unique
+          - name: telephone
+            description: "Numéro de téléphone du client"
+          - name: adresse
+            description: "Adresse physique du client"
+          - name: latitude
+            description: "Latitude GPS du client"
+            tests:
+              - not_null
+          - name: longitude
+            description: "Longitude GPS du client"
+            tests:
+              - not_null
+          - name: created_at
+            description: "Date de création du client (date de démarchage)"
+            tests:
+              - not_null
+
+      - name: soumissions
+        description: "Table des demandes d'installation soumises"
+        columns:
+          - name: id
+            description: "Identifiant unique de la soumission"
+            tests:
+              - not_null
+              - unique
+          - name: client_id
+            description: "Identifiant du client"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('canalbox', 'clients')
+                  field: id
+          - name: date_soumission
+            description: "Date de soumission de la demande"
+            tests:
+              - not_null
+          - name: statut
+            description: "Statut de la soumission (soumis, planifié, complété)"
+            tests:
+              - not_null
+              - accepted_values:
+                  values: ['soumis', 'planifié', 'complété']
+
+      - name: installations
+        description: "Table des installations effectuées"
+        columns:
+          - name: id
+            description: "Identifiant unique de l'installation"
+            tests:
+              - not_null
+              - unique
+          - name: soumission_id
+            description: "Identifiant de la soumission associée"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('canalbox', 'soumissions')
+                  field: id
+          - name: date_planifiee
+            description: "Date planifiée de l'installation"
+            tests:
+              - not_null
+          - name: date_realisation
+            description: "Date réelle de réalisation de l'installation"
+          - name: date_appel
+            description: "Date d'appel du client avant installation"
+            tests:
+              - not_null
+
+      - name: installation_techniciens
+        description: "Table de liaison entre installations et techniciens"
+        columns:
+          - name: installation_id
+            description: "Identifiant de l'installation"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('canalbox', 'installations')
+                  field: id
+          - name: technicien_id
+            description: "Identifiant du technicien"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('canalbox', 'techniciens')
+                  field: id
+
+      - name: boxes
+        description: "Table des équipements (boxes) distribués"
+        columns:
+          - name: numero_serie
+            description: "Numéro de série unique de la box"
+            tests:
+              - not_null
+              - unique
+          - name: client_id
+            description: "Identifiant du client propriétaire"
+            tests:
+              - not_null
+              - unique
+              - relationships:
+                  to: source('canalbox', 'clients')
+                  field: id
+          - name: modele
+            description: "Modèle de la box"
+            tests:
+              - not_null
+          - name: date_fabrication
+            description: "Date de fabrication de la box"
+            tests:
+              - not_null
+          - name: wifi_ssid
+            description: "Nom du réseau WiFi par défaut"
+
+      - name: abonnements
+        description: "Table des abonnements clients"
+        columns:
+          - name: id
+            description: "Identifiant unique de l'abonnement"
+            tests:
+              - not_null
+              - unique
+          - name: client_id
+            description: "Identifiant du client"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('canalbox', 'clients')
+                  field: id
+          - name: forfait_id
+            description: "Identifiant du forfait choisi"
+            tests:
+              - not_null
+          - name: installation_id
+            description: "Identifiant de l'installation associée"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('canalbox', 'installations')
+                  field: id
+          - name: date_debut
+            description: "Date de début de l'abonnement"
+            tests:
+              - not_null
+          - name: date_fin
+            description: "Date de fin de l'abonnement"
+            tests:
+              - not_null
+          - name: duree_renouvellement
+            description: "Durée du renouvellement en mois (1, 3, 6, 12)"
+            tests:
+              - not_null
+              - accepted_values:
+                  values: [1, 3, 6, 12]
+
+      - name: paiements
+        description: "Table des paiements effectués par les clients"
+        columns:
+          - name: id
+            description: "Identifiant unique du paiement"
+            tests:
+              - not_null
+              - unique
+          - name: client_id
+            description: "Identifiant du client"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('canalbox', 'clients')
+                  field: id
+          - name: abonnement_id
+            description: "Identifiant de l'abonnement associé"
+            tests:
+              - relationships:
+                  to: source('canalbox', 'abonnements')
+                  field: id
+          - name: montant
+            description: "Montant du paiement en XOF"
+            tests:
+              - not_null
+          - name: type_paiement
+            description: "Type de paiement (initial, renouvellement)"
+            tests:
+              - not_null
+              - accepted_values:
+                  values: ['initial', 'renouvellement']
+          - name: date_paiement
+            description: "Date du paiement"
+            tests:
+              - not_null
+
+      - name: feedback
+        description: "Table des retours clients après installation"
+        columns:
+          - name: id
+            description: "Identifiant unique du feedback"
+            tests:
+              - not_null
+              - unique
+          - name: client_id
+            description: "Identifiant du client"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('canalbox', 'clients')
+                  field: id
+          - name: installation_id
+            description: "Identifiant de l'installation associée"
+            tests:
+              - not_null
+              - relationships:
+                  to: source('canalbox', 'installations')
+                  field: id
+          - name: satisfaction_produit
+            description: "Note de satisfaction du produit (1-5)"
+            tests:
+              - not_null
+              - dbt_utils.accepted_range:
+                  min_value: 1
+                  max_value: 5
+          - name: note_techniciens
+            description: "Note des techniciens (1-5)"
+            tests:
+              - not_null
+              - dbt_utils.accepted_range:
+                  min_value: 1
+                  max_value: 5
+          - name: commentaires
+            description: "Commentaires libres du client"
+          - name: date_soumission
+            description: "Date de soumission du feedback"
+            tests:
+              - not_null
+
+      - name: forfaits
+        description: "Table des forfaits disponibles"
+        columns:
+          - name: id
+            description: "Identifiant unique du forfait"
+            tests:
+              - not_null
+              - unique
+          - name: nom
+            description: "Nom du forfait"
+            tests:
+              - not_null
+              - accepted_values:
+                  values: ['50 Mbps', '200 Mbps']
+          - name: prix_mensuel
+            description: "Prix mensuel en XOF"
+            tests:
+              - not_null
+              - accepted_values:
+                  values: [15000, 30000]

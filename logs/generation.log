@@ -1,0 +1,465 @@
+2025-08-22 11:50:42,362 - data_generator - INFO - Démarrage de la génération de données avec les paramètres :
+2025-08-22 11:50:42,363 - data_generator - INFO - - Agents: 123
+2025-08-22 11:50:42,363 - data_generator - INFO - - Techniciens: 86
+2025-08-22 11:50:42,363 - data_generator - INFO - - Clients: 7239
+2025-08-22 11:50:42,363 - data_generator - INFO - - Date de début: 2024-06-01
+2025-08-22 11:50:42,492 - data_generator - INFO - Forfaits récupérés: 2
+2025-08-22 11:50:42,624 - data_generator - INFO - Générés 123 agents
+2025-08-22 11:50:42,649 - data_generator - INFO - Générés 86 techniciens
+2025-08-22 11:50:43,494 - data_generator - INFO - Générés 7239 clients
+2025-08-22 11:50:43,532 - data_generator - INFO - Générées 7239 soumissions
+2025-08-22 11:50:43,626 - data_generator - INFO - Générées 7239 installations avec 14478 assignations techniciens
+2025-08-22 11:50:43,662 - data_generator - INFO - Générées 7239 boxes
+2025-08-22 11:50:43,922 - data_generator - INFO - Générés 28935 abonnements
+2025-08-22 11:50:44,110 - data_generator - INFO - Générés 28935 paiements
+2025-08-22 11:50:44,421 - data_generator - INFO - Générés 5773 feedbacks
+2025-08-22 11:50:44,421 - data_generator - INFO - Insertion des données dans la base de données...
+2025-08-22 11:51:23,514 - data_generator - INFO - Données insérées avec succès dans la base de données
+2025-08-22 11:51:23,516 - data_generator - INFO - Statistiques de génération :
+2025-08-22 11:51:23,516 - data_generator - INFO - - Agents générés: 123
+2025-08-22 11:51:23,516 - data_generator - INFO - - Techniciens générés: 86
+2025-08-22 11:51:23,517 - data_generator - INFO - - Clients générés: 7239
+2025-08-22 11:51:23,527 - data_generator - INFO - - Installations réussies: 7239
+2025-08-22 11:51:23,531 - data_generator - INFO - - Abonnements initiaux: 22370
+2025-08-22 11:51:23,533 - data_generator - INFO - - Renouvellements: 6565
+2025-08-22 11:51:23,533 - data_generator - INFO - - Paiements générés: 28935
+2025-08-22 11:51:23,533 - data_generator - INFO - - Feedbacks générés: 5773
+2025-08-22 11:51:23,538 - data_generator - INFO - - Dates clients: 2024-06-01 à 2025-08-21
+2025-08-22 11:51:23,542 - data_generator - INFO - Génération terminée avec succès !
+2025-08-22 11:56:51,767 - data_generator - INFO - Démarrage de la génération de données avec les paramètres :
+2025-08-22 11:56:51,767 - data_generator - INFO - - Agents: 123
+2025-08-22 11:56:51,768 - data_generator - INFO - - Techniciens: 86
+2025-08-22 11:56:51,768 - data_generator - INFO - - Clients: 7239
+2025-08-22 11:56:51,768 - data_generator - INFO - - Date de début: 2024-06-01
+2025-08-22 11:56:51,903 - data_generator - INFO - Forfaits récupérés: 2
+2025-08-22 11:56:51,978 - data_generator - INFO - Générés 85 agents
+2025-08-22 11:56:51,982 - data_generator - INFO - Générés 87 techniciens
+2025-08-22 11:56:53,139 - data_generator - INFO - Générés 19700 clients
+2025-08-22 11:56:53,224 - data_generator - INFO - Générées 19700 soumissions
+2025-08-22 11:56:53,492 - data_generator - INFO - Générées 19700 installations avec 39400 assignations techniciens
+2025-08-22 11:56:53,602 - data_generator - INFO - Générées 19700 boxes
+2025-08-22 11:56:54,101 - data_generator - INFO - Générés 69019 abonnements
+2025-08-22 11:56:54,577 - data_generator - INFO - Générés 69019 paiements
+2025-08-22 11:56:55,426 - data_generator - INFO - Générés 15789 feedbacks
+2025-08-22 11:56:55,426 - data_generator - INFO - Insertion des données dans la base de données...
+2025-08-22 11:58:33,177 - data_generator - INFO - Données insérées avec succès dans la base de données
+2025-08-22 11:58:33,180 - data_generator - INFO - Statistiques de génération :
+2025-08-22 11:58:33,181 - data_generator - INFO - - Agents générés: 85
+2025-08-22 11:58:33,181 - data_generator - INFO - - Techniciens générés: 87
+2025-08-22 11:58:33,181 - data_generator - INFO - - Clients générés: 19700
+2025-08-22 11:58:33,188 - data_generator - INFO - - Installations réussies: 19700
+2025-08-22 11:58:33,211 - data_generator - INFO - - Abonnements initiaux: 54306
+2025-08-22 11:58:33,215 - data_generator - INFO - - Renouvellements: 14713
+2025-08-22 11:58:33,215 - data_generator - INFO - - Paiements générés: 69019
+2025-08-22 11:58:33,215 - data_generator - INFO - - Feedbacks générés: 15789
+2025-08-22 11:58:33,227 - data_generator - INFO - - Dates clients: 2024-06-06 à 2025-08-30
+2025-08-22 11:58:33,236 - data_generator - INFO - - Distribution mensuelle des clients:
+2025-08-22 11:58:33,237 - data_generator - INFO -   2024-06: 686 clients
+2025-08-22 11:58:33,237 - data_generator - INFO -   2024-07: 1370 clients
+2025-08-22 11:58:33,237 - data_generator - INFO -   2024-08: 544 clients
+2025-08-22 11:58:33,237 - data_generator - INFO -   2024-09: 940 clients
+2025-08-22 11:58:33,237 - data_generator - INFO -   2024-10: 857 clients
+2025-08-22 11:58:33,237 - data_generator - INFO -   2024-11: 857 clients
+2025-08-22 11:58:33,237 - data_generator - INFO -   2024-12: 941 clients
+2025-08-22 11:58:33,238 - data_generator - INFO -   2025-01: 1271 clients
+2025-08-22 11:58:33,238 - data_generator - INFO -   2025-02: 1154 clients
+2025-08-22 11:58:33,238 - data_generator - INFO -   2025-03: 836 clients
+2025-08-22 11:58:33,238 - data_generator - INFO -   2025-04: 1180 clients
+2025-08-22 11:58:33,238 - data_generator - INFO -   2025-05: 1768 clients
+2025-08-22 11:58:33,238 - data_generator - INFO -   2025-06: 1270 clients
+2025-08-22 11:58:33,238 - data_generator - INFO -   2025-07: 3884 clients
+2025-08-22 11:58:33,238 - data_generator - INFO -   2025-08: 2142 clients
+2025-08-22 11:58:33,239 - data_generator - INFO - Génération terminée avec succès !
+2025-08-22 12:04:52,420 - data_generator - INFO - Démarrage de la génération de données avec les paramètres :
+2025-08-22 12:04:52,420 - data_generator - INFO - - Agents: 123
+2025-08-22 12:04:52,420 - data_generator - INFO - - Techniciens: 86
+2025-08-22 12:04:52,420 - data_generator - INFO - - Clients: 7239
+2025-08-22 12:04:52,420 - data_generator - INFO - - Date de début: 2024-01-01
+2025-08-22 12:04:52,537 - data_generator - INFO - Forfaits récupérés: 2
+2025-08-22 12:04:52,625 - data_generator - INFO - Générés 126 agents
+2025-08-22 12:04:52,631 - data_generator - INFO - Générés 114 techniciens
+2025-08-22 12:04:54,325 - data_generator - INFO - Générés 27473 clients
+2025-08-22 12:04:54,431 - data_generator - INFO - Générées 27473 soumissions
+2025-08-22 12:04:54,876 - data_generator - INFO - Générées 27473 installations avec 54946 assignations techniciens
+2025-08-22 12:04:55,026 - data_generator - INFO - Générées 27473 boxes
+2025-08-22 12:04:55,861 - data_generator - INFO - Générés 109740 abonnements
+2025-08-22 12:04:56,747 - data_generator - INFO - Générés 109740 paiements
+2025-08-22 12:04:57,977 - data_generator - INFO - Générés 22043 feedbacks
+2025-08-22 12:04:57,977 - data_generator - INFO - Insertion des données dans la base de données...
+2025-08-22 12:07:31,149 - data_generator - INFO - Données insérées avec succès dans la base de données
+2025-08-22 12:07:31,154 - data_generator - INFO - Statistiques de génération :
+2025-08-22 12:07:31,154 - data_generator - INFO - - Agents générés: 126
+2025-08-22 12:07:31,154 - data_generator - INFO - - Techniciens générés: 114
+2025-08-22 12:07:31,154 - data_generator - INFO - - Clients générés: 27473
+2025-08-22 12:07:31,173 - data_generator - INFO - - Installations réussies: 27473
+2025-08-22 12:07:31,227 - data_generator - INFO - - Abonnements initiaux: 85050
+2025-08-22 12:07:31,241 - data_generator - INFO - - Renouvellements: 24690
+2025-08-22 12:07:31,241 - data_generator - INFO - - Paiements générés: 109740
+2025-08-22 12:07:31,241 - data_generator - INFO - - Feedbacks générés: 22043
+2025-08-22 12:07:31,253 - data_generator - INFO - - Dates clients: 2024-01-08 à 2025-08-30
+2025-08-22 12:07:31,267 - data_generator - INFO - - Distribution mensuelle des clients:
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-01: 452 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-02: 1129 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-03: 948 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-04: 712 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-05: 746 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-06: 774 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-07: 732 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-08: 1049 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-09: 943 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-10: 1388 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-11: 1310 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2024-12: 1518 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2025-01: 1718 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2025-02: 2888 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2025-03: 1850 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2025-04: 2244 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2025-05: 1869 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2025-06: 1639 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2025-07: 2007 clients
+2025-08-22 12:07:31,268 - data_generator - INFO -   2025-08: 1557 clients
+2025-08-22 12:07:31,269 - data_generator - INFO - Génération terminée avec succès !
+2025-08-22 12:10:20,727 - data_generator - INFO - Démarrage de la génération de données avec les paramètres :
+2025-08-22 12:10:20,727 - data_generator - INFO - - Agents: 123
+2025-08-22 12:10:20,727 - data_generator - INFO - - Techniciens: 86
+2025-08-22 12:10:20,727 - data_generator - INFO - - Clients: 123
+2025-08-22 12:10:20,727 - data_generator - INFO - - Date de début: 2024-01-01
+2025-08-22 12:10:20,878 - data_generator - INFO - Forfaits récupérés: 2
+2025-08-22 12:10:20,965 - data_generator - INFO - Générés 141 agents
+2025-08-22 12:10:20,970 - data_generator - INFO - Générés 118 techniciens
+2025-08-22 12:10:21,001 - data_generator - INFO - Générés 480 clients
+2025-08-22 12:10:21,004 - data_generator - INFO - Générées 480 soumissions
+2025-08-22 12:10:21,010 - data_generator - INFO - Générées 480 installations avec 960 assignations techniciens
+2025-08-22 12:10:21,012 - data_generator - INFO - Générées 480 boxes
+2025-08-22 12:10:21,023 - data_generator - INFO - Générés 1844 abonnements
+2025-08-22 12:10:21,033 - data_generator - INFO - Générés 1844 paiements
+2025-08-22 12:10:21,055 - data_generator - INFO - Générés 386 feedbacks
+2025-08-22 12:10:21,055 - data_generator - INFO - Insertion des données dans la base de données...
+2025-08-22 12:10:23,079 - data_generator - INFO - Données insérées avec succès dans la base de données
+2025-08-22 12:10:23,079 - data_generator - INFO - Statistiques de génération :
+2025-08-22 12:10:23,079 - data_generator - INFO - - Agents générés: 141
+2025-08-22 12:10:23,079 - data_generator - INFO - - Techniciens générés: 118
+2025-08-22 12:10:23,079 - data_generator - INFO - - Clients générés: 480
+2025-08-22 12:10:23,079 - data_generator - INFO - - Installations réussies: 480
+2025-08-22 12:10:23,080 - data_generator - INFO - - Abonnements initiaux: 1401
+2025-08-22 12:10:23,080 - data_generator - INFO - - Renouvellements: 443
+2025-08-22 12:10:23,080 - data_generator - INFO - - Paiements générés: 1844
+2025-08-22 12:10:23,080 - data_generator - INFO - - Feedbacks générés: 386
+2025-08-22 12:10:23,080 - data_generator - INFO - - Dates clients: 2024-01-09 à 2025-08-30
+2025-08-22 12:10:23,080 - data_generator - INFO - - Distribution mensuelle des clients:
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-01: 9 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-02: 19 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-03: 10 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-04: 11 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-05: 13 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-06: 19 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-07: 20 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-08: 22 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-09: 13 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-10: 18 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-11: 18 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2024-12: 29 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2025-01: 33 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2025-02: 62 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2025-03: 32 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2025-04: 19 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2025-05: 21 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2025-06: 38 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2025-07: 32 clients
+2025-08-22 12:10:23,080 - data_generator - INFO -   2025-08: 42 clients
+2025-08-22 12:10:23,080 - data_generator - INFO - Génération terminée avec succès !
+2025-08-22 12:11:41,824 - data_generator - INFO - Démarrage de la génération de données avec les paramètres :
+2025-08-22 12:11:41,824 - data_generator - INFO - - Agents: 123
+2025-08-22 12:11:41,825 - data_generator - INFO - - Techniciens: 86
+2025-08-22 12:11:41,825 - data_generator - INFO - - Clients: 5729
+2025-08-22 12:11:41,825 - data_generator - INFO - - Date de début: 2024-01-01
+2025-08-22 12:11:41,943 - data_generator - INFO - Forfaits récupérés: 2
+2025-08-22 12:11:42,044 - data_generator - INFO - Générés 124 agents
+2025-08-22 12:11:42,050 - data_generator - INFO - Générés 136 techniciens
+2025-08-22 12:11:43,433 - data_generator - INFO - Générés 22546 clients
+2025-08-22 12:11:43,522 - data_generator - INFO - Générées 22546 soumissions
+2025-08-22 12:11:43,873 - data_generator - INFO - Générées 22546 installations avec 45092 assignations techniciens
+2025-08-22 12:11:44,001 - data_generator - INFO - Générées 22546 boxes
+2025-08-22 12:11:44,707 - data_generator - INFO - Générés 90761 abonnements
+2025-08-22 12:11:45,334 - data_generator - INFO - Générés 90761 paiements
+2025-08-22 12:11:46,298 - data_generator - INFO - Générés 18007 feedbacks
+2025-08-22 12:11:46,298 - data_generator - INFO - Insertion des données dans la base de données...
+2025-08-22 12:13:58,567 - data_generator - INFO - Données insérées avec succès dans la base de données
+2025-08-22 12:13:58,571 - data_generator - INFO - Statistiques de génération :
+2025-08-22 12:13:58,572 - data_generator - INFO - - Agents générés: 124
+2025-08-22 12:13:58,572 - data_generator - INFO - - Techniciens générés: 136
+2025-08-22 12:13:58,572 - data_generator - INFO - - Clients générés: 22546
+2025-08-22 12:13:58,590 - data_generator - INFO - - Installations réussies: 22546
+2025-08-22 12:13:58,612 - data_generator - INFO - - Abonnements initiaux: 70398
+2025-08-22 12:13:58,617 - data_generator - INFO - - Renouvellements: 20363
+2025-08-22 12:13:58,617 - data_generator - INFO - - Paiements générés: 90761
+2025-08-22 12:13:58,617 - data_generator - INFO - - Feedbacks générés: 18007
+2025-08-22 12:13:58,627 - data_generator - INFO - - Dates clients: 2024-01-20 à 2025-08-30
+2025-08-22 12:13:58,639 - data_generator - INFO - - Distribution mensuelle des clients:
+2025-08-22 12:13:58,639 - data_generator - INFO -   2024-01: 167 clients
+2025-08-22 12:13:58,639 - data_generator - INFO -   2024-02: 927 clients
+2025-08-22 12:13:58,639 - data_generator - INFO -   2024-03: 724 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2024-04: 717 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2024-05: 838 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2024-06: 894 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2024-07: 1034 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2024-08: 854 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2024-09: 1191 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2024-10: 716 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2024-11: 1014 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2024-12: 1044 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2025-01: 955 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2025-02: 2983 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2025-03: 1431 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2025-04: 1125 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2025-05: 1836 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2025-06: 1600 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2025-07: 1060 clients
+2025-08-22 12:13:58,640 - data_generator - INFO -   2025-08: 1436 clients
+2025-08-22 12:13:58,640 - data_generator - INFO - Génération terminée avec succès !
+2025-08-22 12:16:46,615 - data_generator - INFO - Démarrage de la génération de données avec les paramètres :
+2025-08-22 12:16:46,615 - data_generator - INFO - - Agents: 123
+2025-08-22 12:16:46,615 - data_generator - INFO - - Techniciens: 86
+2025-08-22 12:16:46,615 - data_generator - INFO - - Clients: 5729
+2025-08-22 12:16:46,616 - data_generator - INFO - - Date de début: 2024-01-01
+2025-08-22 12:16:46,797 - data_generator - INFO - Forfaits récupérés: 2
+2025-08-22 12:16:46,879 - data_generator - INFO - Générés 148 agents
+2025-08-22 12:16:46,884 - data_generator - INFO - Générés 121 techniciens
+2025-08-22 12:16:48,183 - data_generator - INFO - Générés 21632 clients
+2025-08-22 12:16:48,274 - data_generator - INFO - Générées 21632 soumissions
+2025-08-22 12:16:48,591 - data_generator - INFO - Générées 21632 installations avec 43264 assignations techniciens
+2025-08-22 12:16:48,804 - data_generator - INFO - Générées 21632 boxes
+2025-08-22 12:16:49,431 - data_generator - INFO - Générés 85754 abonnements
+2025-08-22 12:16:50,038 - data_generator - INFO - Générés 85754 paiements
+2025-08-22 12:16:50,965 - data_generator - INFO - Générés 17300 feedbacks
+2025-08-22 12:16:50,966 - data_generator - INFO - Insertion des données dans la base de données...
+2025-08-22 12:18:44,718 - data_generator - INFO - Données insérées avec succès dans la base de données
+2025-08-22 12:18:44,722 - data_generator - INFO - Statistiques de génération :
+2025-08-22 12:18:44,722 - data_generator - INFO - - Agents générés: 148
+2025-08-22 12:18:44,722 - data_generator - INFO - - Techniciens générés: 121
+2025-08-22 12:18:44,722 - data_generator - INFO - - Clients générés: 21632
+2025-08-22 12:18:44,729 - data_generator - INFO - - Installations réussies: 21632
+2025-08-22 12:18:44,756 - data_generator - INFO - - Abonnements initiaux: 66483
+2025-08-22 12:18:44,761 - data_generator - INFO - - Renouvellements: 19271
+2025-08-22 12:18:44,761 - data_generator - INFO - - Paiements générés: 85754
+2025-08-22 12:18:44,761 - data_generator - INFO - - Feedbacks générés: 17300
+2025-08-22 12:18:44,761 - data_generator - INFO - - Boxes générées: 21632
+2025-08-22 12:18:44,777 - data_generator - INFO - - Dates clients: 2024-01-11 à 2025-08-30
+2025-08-22 12:18:44,792 - data_generator - INFO - - Distribution mensuelle des clients:
+2025-08-22 12:18:44,792 - data_generator - INFO -   2024-01: 239 clients
+2025-08-22 12:18:44,792 - data_generator - INFO -   2024-02: 1564 clients
+2025-08-22 12:18:44,792 - data_generator - INFO -   2024-03: 403 clients
+2025-08-22 12:18:44,792 - data_generator - INFO -   2024-04: 793 clients
+2025-08-22 12:18:44,792 - data_generator - INFO -   2024-05: 506 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2024-06: 606 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2024-07: 548 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2024-08: 1021 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2024-09: 1280 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2024-10: 1126 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2024-11: 858 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2024-12: 944 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2025-01: 837 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2025-02: 1792 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2025-03: 1428 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2025-04: 1528 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2025-05: 1196 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2025-06: 1387 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2025-07: 1858 clients
+2025-08-22 12:18:44,793 - data_generator - INFO -   2025-08: 1718 clients
+2025-08-22 12:18:44,794 - data_generator - INFO - Génération terminée avec succès !
+2025-08-22 13:10:00,579 - data_generator - INFO - Démarrage de la génération de données avec les paramètres :
+2025-08-22 13:10:00,579 - data_generator - INFO - - Agents: 123
+2025-08-22 13:10:00,579 - data_generator - INFO - - Techniciens: 86
+2025-08-22 13:10:00,579 - data_generator - INFO - - Clients: 5729
+2025-08-22 13:10:00,579 - data_generator - INFO - - Date de début: 2024-01-01
+2025-08-22 13:10:00,894 - data_generator - INFO - Forfaits récupérés: 2
+2025-08-22 13:10:00,995 - data_generator - INFO - Générés 136 agents
+2025-08-22 13:10:01,001 - data_generator - INFO - Générés 140 techniciens
+2025-08-22 13:10:02,233 - data_generator - INFO - Générés 21340 clients
+2025-08-22 13:10:02,317 - data_generator - INFO - Générées 21340 soumissions
+2025-08-22 13:10:02,651 - data_generator - INFO - Générées 21340 installations avec 42680 assignations techniciens
+2025-08-22 13:10:02,854 - data_generator - INFO - Générées 21340 boxes
+2025-08-22 13:10:03,495 - data_generator - INFO - Générés 88410 abonnements
+2025-08-22 13:10:04,106 - data_generator - INFO - Générés 88410 paiements
+2025-08-22 13:10:05,193 - data_generator - INFO - Générés 16993 feedbacks
+2025-08-22 13:10:05,193 - data_generator - INFO - Insertion des données dans la base de données...
+2025-08-22 13:11:10,392 - data_generator - ERROR - Erreur lors de l'insertion des données: relation "paiements" does not exist
+LINE 2:                 INSERT INTO paiements (id, client_id, abonne...
+                                    ^
+
+2025-08-22 13:11:10,398 - data_generator - ERROR - Erreur lors de la génération des données: relation "paiements" does not exist
+LINE 2:                 INSERT INTO paiements (id, client_id, abonne...
+                                    ^
+Traceback (most recent call last):
+  File "/Users/abraham/Desktop/Perso/canalbox-project/generate.py", line 858, in main
+    insert_data_to_db(conn, data)
+  File "/Users/abraham/Desktop/Perso/canalbox-project/generate.py", line 724, in insert_data_to_db
+    cursor.execute("""
+psycopg2.errors.UndefinedTable: relation "paiements" does not exist
+LINE 2:                 INSERT INTO paiements (id, client_id, abonne...
+                                    ^
+
+2025-08-22 13:12:22,507 - data_generator - INFO - Démarrage de la génération de données avec les paramètres :
+2025-08-22 13:12:22,508 - data_generator - INFO - - Agents: 123
+2025-08-22 13:12:22,508 - data_generator - INFO - - Techniciens: 86
+2025-08-22 13:12:22,508 - data_generator - INFO - - Clients: 5729
+2025-08-22 13:12:22,508 - data_generator - INFO - - Date de début: 2024-01-01
+2025-08-22 13:12:22,658 - data_generator - INFO - Forfaits récupérés: 2
+2025-08-22 13:12:22,755 - data_generator - INFO - Générés 140 agents
+2025-08-22 13:12:22,762 - data_generator - INFO - Générés 122 techniciens
+2025-08-22 13:12:24,013 - data_generator - INFO - Générés 21466 clients
+2025-08-22 13:12:24,105 - data_generator - INFO - Générées 21466 soumissions
+2025-08-22 13:12:24,416 - data_generator - INFO - Générées 21466 installations avec 42932 assignations techniciens
+2025-08-22 13:12:24,628 - data_generator - INFO - Générées 21466 boxes
+2025-08-22 13:12:25,381 - data_generator - INFO - Générés 87295 abonnements
+2025-08-22 13:12:26,082 - data_generator - INFO - Générés 87295 paiements
+2025-08-22 13:12:27,171 - data_generator - INFO - Générés 17209 feedbacks
+2025-08-22 13:12:27,172 - data_generator - INFO - Insertion des données dans la base de données...
+2025-08-22 13:13:41,752 - data_generator - ERROR - Erreur lors de l'insertion des données: relation "paiements" does not exist
+LINE 2:                 INSERT INTO paiements (id, client_id, abonne...
+                                    ^
+
+2025-08-22 13:13:41,756 - data_generator - ERROR - Erreur lors de la génération des données: relation "paiements" does not exist
+LINE 2:                 INSERT INTO paiements (id, client_id, abonne...
+                                    ^
+Traceback (most recent call last):
+  File "/Users/abraham/Desktop/Perso/canalbox-project/generate.py", line 858, in main
+    insert_data_to_db(conn, data)
+  File "/Users/abraham/Desktop/Perso/canalbox-project/generate.py", line 724, in insert_data_to_db
+    cursor.execute("""
+psycopg2.errors.UndefinedTable: relation "paiements" does not exist
+LINE 2:                 INSERT INTO paiements (id, client_id, abonne...
+                                    ^
+
+2025-08-22 15:14:07,651 - data_generator - INFO - Démarrage de la génération de données avec les paramètres :
+2025-08-22 15:14:07,651 - data_generator - INFO - - Agents: 123
+2025-08-22 15:14:07,651 - data_generator - INFO - - Techniciens: 86
+2025-08-22 15:14:07,651 - data_generator - INFO - - Clients: 5729
+2025-08-22 15:14:07,651 - data_generator - INFO - - Date de début: 2024-01-01
+2025-08-22 15:14:07,805 - data_generator - INFO - Forfaits récupérés: 2
+2025-08-22 15:14:07,858 - data_generator - INFO - Générés 130 agents
+2025-08-22 15:14:07,864 - data_generator - INFO - Générés 136 techniciens
+2025-08-22 15:14:09,152 - data_generator - INFO - Générés 21360 clients
+2025-08-22 15:14:09,244 - data_generator - INFO - Générées 21360 soumissions
+2025-08-22 15:14:09,596 - data_generator - INFO - Générées 21360 installations avec 42720 assignations techniciens
+2025-08-22 15:14:09,846 - data_generator - INFO - Générées 21360 boxes
+2025-08-22 15:14:10,489 - data_generator - INFO - Générés 84173 abonnements
+2025-08-22 15:14:11,114 - data_generator - INFO - Générés 84173 paiements
+2025-08-22 15:14:12,084 - data_generator - INFO - Générés 16983 feedbacks
+2025-08-22 15:14:12,084 - data_generator - INFO - Insertion des données dans la base de données...
+2025-08-22 15:15:22,774 - data_generator - ERROR - Erreur lors de l'insertion des données: relation "paiements" does not exist
+LINE 2:                 INSERT INTO paiements (id, client_id, abonne...
+                                    ^
+
+2025-08-22 15:15:22,777 - data_generator - ERROR - Erreur lors de la génération des données: relation "paiements" does not exist
+LINE 2:                 INSERT INTO paiements (id, client_id, abonne...
+                                    ^
+Traceback (most recent call last):
+  File "/Users/abraham/Desktop/Perso/canalbox-project/generate.py", line 858, in main
+    insert_data_to_db(conn, data)
+  File "/Users/abraham/Desktop/Perso/canalbox-project/generate.py", line 724, in insert_data_to_db
+    cursor.execute("""
+psycopg2.errors.UndefinedTable: relation "paiements" does not exist
+LINE 2:                 INSERT INTO paiements (id, client_id, abonne...
+                                    ^
+
+2025-08-22 15:19:21,116 - data_generator - INFO - Démarrage de la génération de données avec les paramètres :
+2025-08-22 15:19:21,117 - data_generator - INFO - - Agents: 123
+2025-08-22 15:19:21,117 - data_generator - INFO - - Techniciens: 86
+2025-08-22 15:19:21,117 - data_generator - INFO - - Clients: 5729
+2025-08-22 15:19:21,117 - data_generator - INFO - - Date de début: 2024-01-01
+2025-08-22 15:19:21,234 - data_generator - INFO - Forfaits récupérés: 2
+2025-08-22 15:19:21,316 - data_generator - INFO - Générés 134 agents
+2025-08-22 15:19:21,322 - data_generator - INFO - Générés 128 techniciens
+2025-08-22 15:19:22,640 - data_generator - INFO - Générés 22655 clients
+2025-08-22 15:19:22,729 - data_generator - INFO - Générées 22655 soumissions
+2025-08-22 15:19:23,111 - data_generator - INFO - Générées 22655 installations avec 45310 assignations techniciens
+2025-08-22 15:19:23,297 - data_generator - INFO - Générées 22655 boxes
+2025-08-22 15:19:23,974 - data_generator - INFO - Générés 92975 abonnements
+2025-08-22 15:19:24,619 - data_generator - INFO - Générés 92975 paiements
+2025-08-22 15:19:25,570 - data_generator - INFO - Générés 18108 feedbacks
+2025-08-22 15:19:25,570 - data_generator - INFO - Insertion des données dans la base de données...
+2025-08-22 15:21:37,654 - data_generator - INFO - Données insérées avec succès dans la base de données
+2025-08-22 15:21:37,659 - data_generator - INFO - Statistiques de génération :
+2025-08-22 15:21:37,659 - data_generator - INFO - - Agents générés: 134
+2025-08-22 15:21:37,659 - data_generator - INFO - - Techniciens générés: 128
+2025-08-22 15:21:37,660 - data_generator - INFO - - Clients générés: 22655
+2025-08-22 15:21:37,671 - data_generator - INFO - - Installations réussies: 22655
+2025-08-22 15:21:37,704 - data_generator - INFO - - Abonnements initiaux: 71997
+2025-08-22 15:21:37,709 - data_generator - INFO - - Renouvellements: 20978
+2025-08-22 15:21:37,709 - data_generator - INFO - - Paiements générés: 92975
+2025-08-22 15:21:37,709 - data_generator - INFO - - Feedbacks générés: 18108
+2025-08-22 15:21:37,709 - data_generator - INFO - - Boxes générées: 22655
+2025-08-22 15:21:37,735 - data_generator - INFO - - Dates clients: 2024-01-10 à 2025-08-30
+2025-08-22 15:21:37,747 - data_generator - INFO - - Distribution mensuelle des clients:
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-01: 326 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-02: 1308 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-03: 691 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-04: 852 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-05: 742 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-06: 779 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-07: 884 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-08: 806 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-09: 671 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-10: 1304 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-11: 779 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2024-12: 1429 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2025-01: 1096 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2025-02: 2719 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2025-03: 1289 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2025-04: 1325 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2025-05: 1455 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2025-06: 1849 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2025-07: 1284 clients
+2025-08-22 15:21:37,748 - data_generator - INFO -   2025-08: 1067 clients
+2025-08-22 15:21:37,749 - data_generator - INFO - Génération terminée avec succès !
+2025-08-22 15:24:33,959 - data_generator - INFO - Démarrage de la génération de données avec les paramètres :
+2025-08-22 15:24:33,960 - data_generator - INFO - - Agents: 123
+2025-08-22 15:24:33,960 - data_generator - INFO - - Techniciens: 86
+2025-08-22 15:24:33,960 - data_generator - INFO - - Clients: 5729
+2025-08-22 15:24:33,960 - data_generator - INFO - - Date de début: 2024-01-01
+2025-08-22 15:24:34,082 - data_generator - INFO - Forfaits récupérés: 2
+2025-08-22 15:24:34,174 - data_generator - INFO - Générés 138 agents
+2025-08-22 15:24:34,180 - data_generator - INFO - Générés 126 techniciens
+2025-08-22 15:24:35,465 - data_generator - INFO - Générés 21571 clients
+2025-08-22 15:24:35,552 - data_generator - INFO - Générées 21571 soumissions
+2025-08-22 15:24:35,907 - data_generator - INFO - Générées 21571 installations avec 43142 assignations techniciens
+2025-08-22 15:24:36,153 - data_generator - INFO - Générées 21571 boxes
+2025-08-22 15:24:36,961 - data_generator - INFO - Générés 88945 abonnements
+2025-08-22 15:24:37,650 - data_generator - INFO - Générés 88945 paiements
+2025-08-22 15:24:38,593 - data_generator - INFO - Générés 17323 feedbacks
+2025-08-22 15:24:38,593 - data_generator - INFO - Insertion des données dans la base de données...
+2025-08-22 15:27:31,431 - data_generator - INFO - Données insérées avec succès dans la base de données
+2025-08-22 15:27:31,444 - data_generator - INFO - Statistiques de génération :
+2025-08-22 15:27:31,444 - data_generator - INFO - - Agents générés: 138
+2025-08-22 15:27:31,445 - data_generator - INFO - - Techniciens générés: 126
+2025-08-22 15:27:31,445 - data_generator - INFO - - Clients générés: 21571
+2025-08-22 15:27:31,545 - data_generator - INFO - - Installations réussies: 21571
+2025-08-22 15:27:31,828 - data_generator - INFO - - Abonnements initiaux: 69014
+2025-08-22 15:27:31,832 - data_generator - INFO - - Renouvellements: 19931
+2025-08-22 15:27:31,832 - data_generator - INFO - - Paiements générés: 88945
+2025-08-22 15:27:31,832 - data_generator - INFO - - Feedbacks générés: 17323
+2025-08-22 15:27:31,833 - data_generator - INFO - - Boxes générées: 21571
+2025-08-22 15:27:31,927 - data_generator - INFO - - Dates clients: 2024-01-02 à 2025-08-30
+2025-08-22 15:27:31,938 - data_generator - INFO - - Distribution mensuelle des clients:
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-01: 380 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-02: 1035 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-03: 829 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-04: 619 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-05: 801 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-06: 1068 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-07: 713 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-08: 890 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-09: 926 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-10: 938 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-11: 950 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2024-12: 712 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2025-01: 1573 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2025-02: 2341 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2025-03: 1216 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2025-04: 1449 clients
+2025-08-22 15:27:31,938 - data_generator - INFO -   2025-05: 1591 clients
+2025-08-22 15:27:31,939 - data_generator - INFO -   2025-06: 1203 clients
+2025-08-22 15:27:31,939 - data_generator - INFO -   2025-07: 985 clients
+2025-08-22 15:27:31,939 - data_generator - INFO -   2025-08: 1352 clients
+2025-08-22 15:27:31,941 - data_generator - INFO - Génération terminée avec succès !

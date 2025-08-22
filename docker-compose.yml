@@ -1,0 +1,32 @@
+services:
+  postgres-db:
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile.pstgres
+    image: postgres:16-alpine
+    restart: on-failure
+    container_name: canalbox-postgres-db
+    environment:
+      - POSTGRES_DB=canalbox
+      - POSTGRES_USER=canalbox
+      - POSTGRES_PASSWORD=canalbox
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - canalbox-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U canalbox"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  canalbox-network:
+    driver: bridge
+
+volumes:
+  postgres-data:
+    driver: local

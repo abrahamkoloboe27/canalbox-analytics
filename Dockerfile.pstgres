@@ -1,0 +1,24 @@
+FROM postgres:14-alpine
+
+
+
+ENV POSTGRES_DB=canalbox
+ENV POSTGRES_USER=canalbox_user
+ENV POSTGRES_PASSWORD=canalbox_pass
+
+
+
+RUN apt-get update && apt-get install -y postgresql-14-postgis-3 && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /docker-entrypoint-initdb.d
+
+
+
+COPY init.sql /docker-entrypoint-initdb.d/
+
+
+
+EXPOSE 5432
+
+ENTRYPOINT ["docker-entrypoint.sh"]
+CMD ["postgres"]

@@ -1,0 +1,29 @@
+name: 'canalbox_project'
+version: '1.0.0'
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'canalbox_project'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:       
+  - "target"
+  - "dbt_packages"
+
+
+models:
+  canalbox_project:
+    raw:
+      +materialized: table
+      +schema: raw
+    staging:
+      +materialized: table
+      +schema: staging
+    marts:
+      +materialized: table
+      +schema: marts
